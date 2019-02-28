@@ -1,0 +1,77 @@
+html,
+body {
+    margin: 0 auto;
+    color: white;
+/*     background: url(https://images.unsplash.com/photo-1453872302360-eed3c5f8ff66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    image-rendering: -webkit-optimize-contrast;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    text-align: center;
+    max-height: 500px;
+    max-width: 100%;
+}
+
+.wrapper {
+   background:url(https://images.unsplash.com/photo-1453872302360-eed3c5f8ff66?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    image-rendering: -webkit-optimize-contrast;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px 40px;
+    margin: 5em;
+    box-shadow: 2px 6px 4px #d3d3d3;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    margin: 2em 2em
+}
+
+input {
+    color: white;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+    margin: 1em 0;
+    padding: 2px 10px;
+}
+
+
+button {
+    width:175px;
+    padding: 1em;
+    border-radius: 20px;
+    border: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color:white;
+    transition: 0.7s;
+}
+
+button:hover {
+    background: white;
+    color:rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+.forgot-password {
+    text-decoration: none;
+    color: white;
+    text-shadow: 2px 2px 2px #000;
+   
+}
+
+footer {
+    position: absolute;
+    
+    height:60px;
+    min-width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    color:white; 
+}
